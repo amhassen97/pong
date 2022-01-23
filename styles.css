@@ -20,8 +20,8 @@ body{
 
     position: absolute;
     background-color: var(--foreground-color);
-    top: 50vh;
-    transform: calc(var(--position) * 1vh);
+    top: calc(var(--position) * 1vh);
+    transform: translateY(-50%);
     width: 1vh;
     height: 10vh;
 }
